@@ -1,0 +1,133 @@
+@media screen and (max-width:991px){
+    #navbar ul{
+        display: none;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    header .img {
+        width: 450px;
+        height: 425px;
+    }
+    .big-features .content {
+        width: 55vw;
+    }
+    #cta-section .img {
+        width: 40vw;
+        height: 60vh;
+        margin-left: 0;
+        margin-top: 10%;
+    }
+    #cta-lists ul li {
+        padding: 0px;
+    }
+    footer{
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:768px){
+    :root{
+        --padding-section: 10px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    header .container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        width: 90vw !important;
+    }
+    header .content{
+        text-align: center;
+    }
+    header .img {
+        width: 80vw;
+        height: auto;
+    }
+    #clients-section .container div {
+        font-size: 1.125rem;
+    }
+
+    .big-features {
+        flex-direction: column !important;
+    }
+    .big-features img {
+        width: 90vw;
+    }
+    .big-features .content{
+        margin-left: var(--padding-section);
+    }
+    #cta-section .img {
+        width: 100vw;
+        height: 90vw;
+    }
+    #cta-section .container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sub-cta h1{
+        font-size: 2rem;
+    }
+
+    #example-section .cards{
+        width: 38vw;
+        height: 30vh;
+        background-size: 38vw;
+    }
+    #example-section .cards h3{
+        font-size: 1.25rem;
+    }
+    #sub-footer{
+        padding: 0% 7.5%;
+    }
+    footer .container{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:479px){
+    #top-banner .container a {
+        font-size: 0.8rem;
+    }
+    #clients-section .container div {
+        font-size: 1rem;
+    }
+    #example-section .cards {
+        width: 70vw;
+        height: 30vh;
+        background-size: 70vw;
+    }
+    #cta-section .img {
+        height: 65vw;
+    }
+    #cta-section .content {
+        text-align: center;
+    }
+    header h3 {
+        font-size: 1.05rem;
+    }
+    #sub-footer{
+        padding: 0% 3%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+    #sub-cta h1{
+        font-size: 1.75rem;
+    }
+
+}
